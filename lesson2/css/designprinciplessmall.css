@@ -1,0 +1,29 @@
+h1,
+h2,
+h3 {
+  font-family: "Antonio", sans-serif;
+}
+p {
+  font-family: "Roboto Slab", serif;
+}
+.headline{
+    margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  border: 1px solid rgb(218, 117, 117);
+  padding: 0 1rem;
+  background-color: rgb(211, 157, 157);
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
