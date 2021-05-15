@@ -5,24 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Preston Web page.">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="css/prestonsmall.css">
+    <link rel="stylesheet" href="css/prestonmedium.css">
+    <link rel="stylesheet" href="css/prestonlarge.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Yeseva+One&display=swap" rel="stylesheet"> 
 
-    <title>Document</title>
+    <title>Preston Page</title>
 </head>
 <body>
     <header>
 <!-- The header must contain a logo, site name, and motto as demonstrated and span the entire screen in all views.-->
+<img src="/lesson3/images/iconfinder_Mars_1715796.png" alt="Martian Colony Logo"/>
+<h1>Life On Mars</h1>
+<h2 class="tagLine">It's like living in your own private Idaho</h2>
     </header>
-    <nav>
-<!-- The navigation must span the entire width of the screen and use an unordered list. 
-    Be sure to include menu list items for all the weather site pages found in The Weather Site Project plus a menu link. -->
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>   
+    <ul id="primaryNav" class="hide">
+        <li><a href="#">Home </a></li>
+        <li class="prestonActive"><a href="/lesson4/pretson-4.html">Preston Colony </a></li>
+        <li><a href="#">Soda Springs Collective </a></li>
+        <li><a href="#">Fish Haven Commune </a></li>
+        <li><a href="#">Storm Center </a></li>
+        <li><a href="#">Gallery </a></li>
+    </ul>
     </nav>
+    <!-- The navigation must span the entire width of the screen and use an unordered list. 
+    Be sure to include menu list items for all the weather site pages found in The Weather Site Project plus a menu link. -->
     <main>
-
+        <h2>Preston ID Colony</h2>
+        <div class="contentBox">Hero w/weather summary</div>
+        <div class="contentBox">5 Day Forecast</div>
+        <div class="contentBox">Article</div>
+        <div class="contentBox">Contact Information</div>
     </main>
     <footer>
+            <p>&copy; <span id="currentdate"></span> | Brother Nye | Life On Mars | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+            <p class = "fulldate"><date></date></p>
 <!--The footer must display the current date using JavaScript in this format: Wednesday, 24 July 2020.-->
     </footer>
 </body>
 </html>
+<script src="/lesson4/js/scripts.js"></script>
+<script src="/lesson4/js/year.js"></script>
+<script src="/lesson4/js/fullDate.js"></script>
+
+
+<!-- The main and footer sections must be limited in width in large views (not span the entire screen)
+     and a placeholder should be used for the four content sections within the main element:
+     hero image/weather summary, 5 day forecast, article, and the contact information.-->
