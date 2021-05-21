@@ -101,6 +101,8 @@ left: 15px;
 	border-bottom: 1px solid #333;
 	border-left: 1px solid #333;
 	text-align: center;
+    margin: 0 auto;
+    width: 100px;
     
 }
 .col-head {
@@ -130,20 +132,27 @@ left: 15px;
 	text-align: center;
 }
 
-.prestonarticle{
+.prestonarticle {
     
     background-color: #1c8a18;
     margin: 20px;
     padding: 15px;
 }
 
+
+
 #bronze {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 300px;
+    box-shadow: 0 0 30px #111;
+    margin: 1em;
 
 }
 
+#prestonhistory {
+    color: white;
+    text-shadow: 1px 2px  black;
+}
 
 .contact {
     display: grid;
@@ -152,12 +161,22 @@ left: 15px;
     background-color: #ea8470;
 }
 
+#contacttext {
+    text-align: center;
+    padding: 2.5em;
+    text-justify: center;
+}
+
 #marsmap {
     display: none;
     width: 100%;
     max-height: auto;
+    box-shadow: 0 0 30px #111;
+    margin: 1em;
 
 }
+
+
 
 .contentBox {
     display: block;
