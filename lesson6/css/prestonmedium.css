@@ -1,0 +1,72 @@
+@media only screen and (min-width: 35rem) {
+
+    .icon {
+        float: right;
+        width: 200px;
+        height: auto;
+    }
+
+    nav button {display:none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul {
+        margin-left: 2%;
+    }
+    nav ul li {
+        display: block;
+      /*  float: left;*/
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #8f3b29;
+        padding: .8rem 1rem;
+    }
+  
+    
+    .hero-ph {
+        position: absolute;
+            margin: 15px 15px;
+            background: radial-gradient(#eee, #c75839);
+            border: 1px solid #333;
+            width: 230px;
+            height: 250px;
+    
+        }
+                
+        .weathersummary {
+        position: absolute;
+        top: 1rem;
+        left: 15px;
+        }
+
+        .fiveday {
+            display: inline;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            width: 600px;
+
+        }
+
+        #bronze {
+            float: right;
+            width: auto;
+        
+        }
+
+      .prestonarticle {
+          min-height: 550px;
+      }
+
+        #marsmap {
+            display: block;
+            width: 100%;
+            max-height: auto;
+            float: left;
+            border: 4em;
+        
+        }
+
+}
