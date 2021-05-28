@@ -27,11 +27,12 @@
     
     .hero-ph {
         position: absolute;
-            margin: 15px 15px;
+            margin: 5px 5px;
             background: radial-gradient(#eee, #c75839);
             border: 1px solid #333;
             width: 230px;
-            height: 250px;
+            height: 220px;
+            padding: 0 0 0 0;
     
         }
                 
@@ -39,6 +40,12 @@
         position: absolute;
         top: 1rem;
         left: 15px;
+        
+        }
+
+        .weathersummary p {
+            margin: .5em;
+
         }
 
         .fiveday {

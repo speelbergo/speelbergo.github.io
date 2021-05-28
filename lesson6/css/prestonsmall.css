@@ -1,4 +1,4 @@
-.banner {
+#banner {
     background-color: yellow;
 }
 
@@ -83,7 +83,7 @@ main {
 }
 
 .hero-ph {
-    margin: 10px auto;
+    margin: 10px 0 0 10px;
     background: radial-gradient(#eee, #c75839);
     border: 1px solid #333;
     width: 300px;
@@ -93,6 +93,9 @@ main {
 .weathersummary {
 top: 1rem;
 left: 15px;
+
+
+
 }
 
 .fiveday {
