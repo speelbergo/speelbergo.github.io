@@ -12,9 +12,11 @@
 
     nav ul {
         margin-left: 2%;
+        max-width: 800px;
     }
     nav ul li {
         display: block;
+
       /*  float: left;*/
     }
 
@@ -30,21 +32,21 @@
             margin: 5px 5px;
             background: radial-gradient(#eee, #c75839);
             border: 1px solid #333;
-            width: 230px;
-            height: 220px;
+            width: 230px;            
+            height: 200px;
             padding: 0 0 0 0;
-    
+            opacity: 10;
         }
                 
         .weathersummary {
         position: absolute;
-        top: 1rem;
+        top: .1rem;
         left: 15px;
         
         }
 
         .weathersummary p {
-            margin: .5em;
+            margin: .3em;
 
         }
 
