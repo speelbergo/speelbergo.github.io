@@ -1,0 +1,27 @@
+@media only screen and (min-width: 64rem) {
+
+    
+    .icon {
+        float: left;
+        width: 250px;
+        height: auto;
+    }
+
+    nav button {display:none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul {
+        margin: 0 auto;
+        height: 100%;
+    }
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #8f3b29;
+        padding: .6rem 1rem;
+    }
+}
