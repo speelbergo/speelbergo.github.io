@@ -38,19 +38,19 @@
             opacity: 10;
         }
                 
-        .weathersummary {
+    .weathersummary {
         position: absolute;
         top: .1rem;
         left: 15px;
         
         }
 
-        .weathersummary p {
+    .weathersummary p {
             margin: .3em;
 
         }
 
-        .fiveday {
+    .fiveday {
             display: inline;
             align-items: center;
             justify-content: center;
@@ -59,17 +59,17 @@
 
         }
 
-        #bronze {
+    #bronze {
             float: right;
             width: auto;
         
         }
 
-      .prestonarticle {
+    .prestonarticle {
           min-height: 550px;
       }
 
-        #marsmap {
+    #marsmap {
             display: block;
             width: 100%;
             max-height: auto;
@@ -78,4 +78,16 @@
         
         }
 
+    .figurebatch {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .lazyimage {
+            display: block;
+            min-width: 50px;
+            min-height: 50px; 
+            width: 100%;
+        }
+        
 }

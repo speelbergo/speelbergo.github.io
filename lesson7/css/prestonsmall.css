@@ -155,8 +155,6 @@ margin: 10px 10px 10px 10px;
     padding: 15px;
 }
 
-
-
 #bronze {
     display: block;
     width: 300px;
@@ -180,7 +178,7 @@ margin: 10px 10px 10px 10px;
 #contacttext {
     text-align: center;
     padding: 2.5em;
-    text-justify: center;
+    text-justify: auto;
 }
 
 #marsmap {
@@ -191,8 +189,6 @@ margin: 10px 10px 10px 10px;
     margin: 1em;
 
 }
-
-
 
 .contentBox {
     display: block;
@@ -205,6 +201,40 @@ margin: 10px 10px 10px 10px;
 }
 
 
+.figurebatch {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    grid-gap: 30px;
+
+}
+
+.lazyimage {
+    min-width: 50px;
+    min-height: 200px; 
+    width: 100%;
+    box-shadow: 10px 10px 30px 5px dimgrey ;
+    filter: blur(0em) ;
+    transition: filter 0.5s;
+}
+
+.lazyimage:hover {
+    box-shadow: 20px 20px 30px 15px dimgrey ;
+}
+
+ .lazyimage[data-src]{
+    filter: blur(0.2em);
+
+  } 
+
+.desc {
+    position: absolute;
+    background-color: rgb(218, 165, 32, 0.6);
+    font-size: 110%;
+    margin: 3px;
+    /* padding: 3px; */
+     
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
