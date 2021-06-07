@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Preston Web page.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="css/prestonsmall.css">
+    <link rel="stylesheet" href="css/prestonmedium.css">
+    <link rel="stylesheet" href="css/prestonlarge.css">
+   <!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Yeseva+One&display=swap" rel="stylesheet">  -->
+
+    <title>Preston Page</title>
+</head>
+<body>
+<div id="banner">
+    <P>Pancake on the Plains this Saturday! <br>
+        Come take a walk outside the colony dome.
+         </P>
+</div>
+    <header>
+<img class="icon" src="/lesson3/images/iconfinder_Mars_1715796.png" alt="Martian Colony Logo"/>
+<h1>Life On Mars</h1>
+<h2 class="tagLine"><em>It's like living in your own private Idaho</em></h2>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>   
+    <ul id="primaryNav" class="hide">
+        <li><a href="#">Home </a></li>
+        <li class="prestonActive"><a href="/pretson-8.html">Preston Colony </a></li>
+        <li><a href="#">Soda Springs Collective </a></li>
+        <li><a href="#">Fish Haven Commune </a></li>
+        <li><a href="/lesson8/stormcenter.html">Storm Center </a></li>
+        <li><a href="/lesson8/gallery.html">Gallery </a></li>
+    </ul>
+    </nav>
+
+    <main class="clearfix">
+        <h2>Preston ID Colony</h2>
+
+    <div class="hero-ph"> 
+         
+        <section class="weathersummary">
+            <h3> Weather At A Glance</h3>
+            <p><strong>Currently:</strong> Meteors</p>
+            <p><strong>Temperature:</strong> <span id="temph"> 100  </span></p>
+            <p><strong>Humidity:</strong> 0%</p>
+            <p><strong>Precipitation:</strong> 0 inches</p>
+            <p><strong>Wind Speed:</strong> <span id="wendy">55</span> </p>
+            <p><strong>Wind Chill:</strong> <span id="wchill"></span></p>
+        </section>
+    
+
+    </div>
+    <img class="prestonhero" src="images/colony1.jpg" alt="preston colony hero image">
+
+   <!-- 
+   <picture class="franklin">
+       <source media="(max-width: 512px)" srcset="images/wdd230_image_franklinSmall.jpg">
+       <source media="(max-width: 1024px)" srcset="images/wdd230_image_franklinMedium.jpg">
+       <source media="(max-width: 1600px)" srcset="images/wdd230_image_franklinLarge.jpg">
+       <img src="images/wdd230_image_franklinOriginal.jpeg" alt="ugly powerline photo">
+   -->
+
+
+       
+   </picture>
+
+        <div class="fiveday">
+        <h2>5 Day Forecast</h2>
+<div class="flex">
+	<div class="flex-col">
+		<span class="col-head">21</span>
+		<img src="/lesson5/images/sunny.png " alt="sunny!" style="width:50px;height:auto;">
+        
+		<span class="data">Sunny</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">22</span>
+		<img src="/lesson5/images/rainy.png" alt="rainy!" style="width:50px;height:auto">
+		<span class="data">Rainy</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">23</span>
+		<img src="/lesson5/images/cloudy.png" alt="cloudy!" style="width:50px;height:auto">
+		<span class="data">Cloudy</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">24</span>
+		<img src="/lesson5/images/windy.png" alt="windy!" style="width:50px;height:auto">
+		<span class="data">Windy</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">25</span>
+		<img src="/lesson5/images/sunny.png" alt="sunny!" style="width:50px;height:auto">
+		<span class="data">Sunny</span>
+	</div>
+	<div class="flex-col">
+		<span class="col-head">26</span>
+		<img src="/lesson5/images/meteor.jpg" alt="meteor!" style="width:50px;height:auto">
+		<span class="data">Meteor</span>
+	</div>
+</div>
+</div>
+
+<div class="prestonarticle">
+    <img id="bronze" src="/lesson5/images/napoleandynamyte.jpg" alt="Napoleon Bronze statue">
+    <h3>Preston Colony founding</h3>
+    <p id="prestonhistory">The world famous Preston, Idaho was once a small agricultural town completely unknown outside the region. 
+        That is until the landmark feature film Napoleon Dynamite was released. Although it made a noticeable yet 
+    short-lived impact upon its first release, it was revived a generation later and became a cultural touchstone
+that ushered in an era of peace the world had never heretofore seen. It's no wonder then that the first permanent
+post-terrestrial colony was named after this famous utopia, including a reproduction of the bronze statue of
+its most revered folk hero.</p>
+</div>
+
+   <div class="contact">
+       <img id="marsmap" src="/lesson5/images/marsmap.jpg" alt="Google Mars map">
+       <div id="contacttext">
+       <p> <strong>  Life on Mars </strong> <br>
+        111 Ares Avenue <br>
+        Central Biodome <br>
+       <em>  overlord@lifeonmars.com </em></p>
+    </div>
+
+   </div>
+    </main>
+
+    <footer>
+            <p>&copy; <span id="currentdate"></span> | Brother Nye | Life On Mars | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+           <p> <span id="date"></span> </p>
+    </footer>
+    <script src="/lesson6/js/scripts.js"></script>
+    <script src="/lesson6/js/year.js"></script>
+    <script src="/lesson6/js/fullDate.js"></script>
+    <script src="/lesson6/js/preston-5.js"></script>
+    <script src="/lesson6/js/windchill.js"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({google: {families: ["Libre Baskerville", "Yeseva One"]}});
+</script>
+</body>
+<!-- 
+<script src="/lesson4/js/scripts.js"></script>
+<script src="/lesson4/js/year.js"></script>
+<script src="/lesson4/js/fullDate.js"></script>
+<script src="/lesson5/js/preston-5.js"></script> -->
+
+</html>
