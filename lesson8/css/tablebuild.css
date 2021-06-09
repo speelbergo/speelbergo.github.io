@@ -8,7 +8,7 @@ table {
     /*padding: 1px;*/
 }
 
-#titlehead {
+thead th {
     text-align: center;
     color: black;
     background-color: #7fb9c2 ;
@@ -28,22 +28,24 @@ table, th, td {
     padding: 5px;
   }
 
-  
-
-  .rowodd {
+  tr:nth-child(odd) {
       background-color: #e7f0ed;
   }
 
-  .roweven {
+  tr:nth-child(even) {
       background-color: #e7ffed ;
   }
 
-  #tablefoot {
+  tfoot th {
     color: black;
     background-color: #7fb9c2 ;
     font-size: 80%;
   }
 
-  #bfrinum {
+  #seventyfive {
+    background-color: #628ca6
+  }
+
+  body {
       text-align: center;
   }
