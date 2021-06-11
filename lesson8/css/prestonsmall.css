@@ -251,9 +251,7 @@ margin: 10px 10px 10px 10px;
       margin: 0 auto; 
       color: white;
   }
-  a:link, footer {
-      color: lightgray;
-  }
+ 
 
   .fulldate {
     margin: 0 auto;
