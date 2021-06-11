@@ -232,9 +232,10 @@ margin: 10px 10px 10px 10px;
     background-color: rgb(218, 165, 32, 0.6);
     font-size: 110%;
     margin: 3px;
-    /* padding: 3px; */
-     
 }
+
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

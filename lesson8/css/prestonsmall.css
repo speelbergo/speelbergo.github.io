@@ -63,8 +63,6 @@ nav ul li a {
     border-top:1px solid rgba(0,0,0,0.3);
 }
 
-
-
 nav ul li.prestonActive a{background-color: #8f3b29; color: #ffff;}
 
 nav ul li a:hover {background-color: #ea8470;}
@@ -79,7 +77,7 @@ main {
 
 .prestonhero {
     width: 100%;
-    max-height: auto;
+    
 }
 
 .hero-ph {
@@ -95,8 +93,6 @@ main {
 top: 1rem;
 left: 15px;
 margin: 10px 10px 10px 10px;
-
-
 
 }
 
@@ -184,7 +180,6 @@ margin: 10px 10px 10px 10px;
 #marsmap {
     display: none;
     width: 100%;
-    max-height: auto;
     box-shadow: 0 0 30px #111;
     margin: 1em;
 
@@ -199,7 +194,6 @@ margin: 10px 10px 10px 10px;
     color: #4444;
     font-style: italic;
 }
-
 
 .figurebatch {
     display: grid;
@@ -231,10 +225,14 @@ margin: 10px 10px 10px 10px;
     position: absolute;
     background-color: rgb(218, 165, 32, 0.6);
     font-size: 110%;
-    margin: 3px;
-    /* padding: 3px; */
-     
+    margin: 3px;   
 }
+
+#strom {
+    background-color: #ea8470;
+        border: 1px solid #bbb;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

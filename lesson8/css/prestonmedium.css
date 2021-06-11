@@ -72,7 +72,6 @@
     #marsmap {
             display: block;
             width: 100%;
-            max-height: auto;
             float: left;
             border: 4em;
         
