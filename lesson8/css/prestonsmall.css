@@ -10,7 +10,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto auto;
-    background-color: #1c8a18;
+    background-color: #1F581D;
     }
 picture.franklin img {
 
@@ -146,7 +146,7 @@ margin: 10px 10px 10px 10px;
 
 .prestonarticle {
     
-    background-color: #1c8a18;
+    background-color: #1F581D;
     margin: 20px;
     padding: 15px;
 }
@@ -241,7 +241,7 @@ margin: 10px 10px 10px 10px;
   }
 
   footer {
-      background-color: #1c8a18;
+      background-color: #1F581D;
       max-width: 80%;
       text-align: center;
       margin: 0 auto; 
