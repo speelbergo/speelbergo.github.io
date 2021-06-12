@@ -61,7 +61,7 @@
               <input
                 type="text"
                 id="fullname"
-                pattern="[A-Za-z ]+{5,}"
+                pattern="[A-Za-z ]{5,}"
                 required /></label
             ><br />
 
@@ -124,14 +124,14 @@
             </select></label><br>
 
           <label class="top">User in Danger?</label>
-          <label class="top" for="yes">Yes
-          <input class="top" type="radio" id="yess" name="danger" value="yes" /> </label>
+          <label class="sbs" for="yes">Yes
+          <input  type="radio" id="yess" name="danger" value="yes" /> </label>
          
-          <label class="top" for="maybe">Maybe
-          <input class="top" type="radio" id="mebbe" name="danger" value="maybe" /> </label>
+          <label class="sbs" for="maybe">Maybe
+          <input  type="radio" id="mebbe" name="danger" value="maybe" /> </label>
 
-          <input class="top" type="radio" id="nah" name="danger" value="no" />
-          <label class="top" for="no">No</label><br /><br />
+          <label  class="sbs" for="no">No
+            <input  type="radio" id="nah" name="danger" value="no" /> </label><br>
 
           <label class="top" for="addlinfo">Additional Info<br >
           <input type="textarea" id="addlinfo" value="Nuff said?"/> </label>
