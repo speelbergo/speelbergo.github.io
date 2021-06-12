@@ -1,4 +1,4 @@
-a:link {color: lightgray;}
+
 
 #banner {
     background-color: yellow;
@@ -247,6 +247,10 @@ margin: 10px 10px 10px 10px;
       text-align: center;
       margin: 0 auto; 
       color: white;
+  }
+
+  #byulink {
+      color: lightgray;
   }
  
 
