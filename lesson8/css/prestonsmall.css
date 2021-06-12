@@ -282,7 +282,7 @@ margin: 10px 10px 10px 10px;
    form label.top, form div {
        display: block;
        padding-top: .1rem;
-       color: #c75839;
+       color: #843C2A;
        font-size: .8rem;
    }
 
@@ -305,7 +305,7 @@ margin: 10px 10px 10px 10px;
 
    form input.submitBtn {
        border: none;
-       background-color: #c75839;
+       background-color: #843C2A;
        color: white;
        border-radius: 1rem; 
        padding: .75rem 1.5rem;
