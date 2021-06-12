@@ -1,122 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Storm reporting Web page.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
-    <link rel="stylesheet" href="css/prestonsmall.css">
-    <link rel="stylesheet" href="css/prestonmedium.css">
-    <link rel="stylesheet" href="css/prestonlarge.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Storm reporting Web page." />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/prestonsmall.css" />
+    <link rel="stylesheet" href="css/prestonmedium.css" />
+    <link rel="stylesheet" href="css/prestonlarge.css" />
 
     <title>Storm Center</title>
-</head>
-<body>
-<div id="banner">
-    <P>Pancake on the Plains this Saturday! <br>
+  </head>
+  <body>
+    <div id="banner">
+      <p>
+        Pancake on the Plains this Saturday! <br />
         Come take a walk outside the colony dome.
-         </P>
-</div>
+      </p>
+    </div>
     <header>
-<img class="icon" src="/lesson3/images/iconfinder_Mars_1715796.png" alt="Martian Colony Logo"/>
-<h1>Life On Mars</h1>
-<h2 class="tagLine"><em>It's like living in your own private Idaho</em></h2>
+      <img
+        class="icon"
+        src="/lesson3/images/iconfinder_Mars_1715796.png"
+        alt="Martian Colony Logo"
+      />
+      <h1>Life On Mars</h1>
+      <h2 class="tagLine">
+        <em>It's like living in your own private Idaho</em>
+      </h2>
     </header>
 
     <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>   
-    <ul id="primaryNav" class="hide">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
         <li><a href="#">Home </a></li>
-        <li class="prestonActive"><a href="/pretson-8.html">Preston Colony </a></li>
+        <li class="prestonActive">
+          <a href="/pretson-8.html">Preston Colony </a>
+        </li>
         <li><a href="#">Soda Springs Collective </a></li>
         <li><a href="#">Fish Haven Commune </a></li>
         <li><a href="/lesson8/stormcenter.html">Storm Center </a></li>
         <li><a href="/lesson8/gallery.html">Gallery </a></li>
-    </ul>
+      </ul>
     </nav>
 
     <main class="clearfix">
-        <h1> Report a storm </h1>
-      
-        <div id="strom"> 
-        <P><em> An asterisk (*) indicates a required field</em></P>
-        <form action="/lesson8/thanks.html"> 
+      <h1>Report a storm</h1>
 
-<!--   using a regular expression pattern -->
-            <label for="fullname">Full name: (alpha characters only) *</label><br>
-            <input type="text" id="fullname" value= "John Red" pattern="[A-Za-z ]+{5,}" required><br><br>
+      <div id="strom">
+        <p><em> An asterisk (*) indicates a required field</em></p>
+        <form action="/lesson8/thanks.html">
+          <fieldset>
+            <legend>Reporter Info</legend>
+            <label class="top" for="fullname"
+              >Full name: (alpha characters only) *<br />
+              <input
+                type="text"
+                id="fullname"
+                pattern="[A-Za-z ]+{5,}"
+                required /></label
+            ><br />
 
-            <label for="eemail"> Email address:</label><br>
-            <input type="email" id="eemail" value=john@redplanet.com><br><br>
+            <label class="top" for="eemail">
+              Email address:<br />
+              <input
+                type="email"
+                id="eemail"
+                value="john@redplanet.com" /></label
+            ><br />
 
-            <label for="fone"> Phone Number*</label><br>
-            <input type="tel" id="fone" value=(555)867-5309 required><br><br>
+            <label class="top" for="fone">
+              Phone Number*<br />
+              <input
+                type="tel"
+                id="fone"
+                value="(555)867-5309"
+                required /></label
+            ><br />
 
-            <label for="zippity"> Zip Code*</label><br>
-            <input type="number" id="zippity" value=90210 required><br><br>
+            <label class="top" for="zippity">
+              Zip Code*<br />
+              <input type="number" id="zippity" value="90210" required /></label
+            ><br />
+          </fieldset>
 
-            <label for="fig"> Date</label><br>
-            <input type="date" id="fig" value=12-25-0001><br><br>
+          <fieldset>
+            <legend>Storm Info</legend>
 
-<label for="strmtyp">What kinda storm? :</label>
-<input list="stormtypes" name="strmtyp" id="strmtyp">
-<datalist id="stormtypes">
-  <option value="Flash Flood">
-  <option value="Hail">
-  <option value="Hurricane">
-  <option value="Thunderstorm">
-  <option value="Tornado">
-  <option value="Asteroid the size of Texas"></option>
-</datalist> <br><br>
+          <label class="top" for="fig"> Date:<br />
+          <input type="date" id="fig" value="12-25-0001" /></label><br />
 
-    <label for="rang">Severity (between 0 and 10):</label>
-  <input type="range" id="rang" name="rang" min="0" max="10"> <br> <br>
+          <label class="top" for="strmtyp">What kinda storm?
+          <input list="stormtypes" name="strmtyp" id="strmtyp" />
+          <datalist id="stormtypes">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+            <option value="Asteroid the size of Texas"></option>
+          </datalist> </label>
+          <br />
 
-<label>
-    <select name="Colonies" id="selectcolony" onchange="selectResponse()">
-        <option value="" disabled selected>Select a Colony ...</option>
-        <option value="Preston">Preston</option>
-        <option value="Soda Springs">Soda Springs</option>
-        <option value="Fish Haven">Fish Haven</option>
-        <option value="Open Red Space">Open Red Space</option>
-    </select></label>
+          <label class="top" for="rang">Severity (between 0 and 10):
+          <input type="range" id="rang" name="rang" min="0" max="10" /></label>
+          <br />
 
-           <p>User in Danger?</p>
-            <input type="radio" id="yess" name="danger" value="yes"> 
-            <label for="yes">Yes</label>
-            <input type="radio" id="mebbe" name="danger" value="maybe"> 
-            <label for="maybe">Maybe</label>
-            <input type="radio" id="nah" name="danger" value="no"> 
-            <label for="no">No</label><br><br>
+          <label class="top">
+            <select
+              name="Colonies"
+              id="selectcolony"
+              onchange="selectResponse()"
+            >
+              <option value="" disabled selected>Select a Colony ...</option>
+              <option value="Preston">Preston</option>
+              <option value="Soda Springs">Soda Springs</option>
+              <option value="Fish Haven">Fish Haven</option>
+              <option value="Open Red Space">Open Red Space</option>
+            </select></label><br>
 
-            <label for="addlinfo">Additional Info</label><br>
-            <input type="textarea" id="addlinfo" value="Nuff said?"> <Br><br>
+          <label class="top">User in Danger?</label>
+          <input class="top" type="radio" id="yess" name="danger" value="yes" />
+          <label class="top" for="yes">Yes</label>
+          <input class="top" type="radio" id="mebbe" name="danger" value="maybe" />
+          <label class="top" for="maybe">Maybe</label>
+          <input class="top" type="radio" id="nah" name="danger" value="no" />
+          <label class="top" for="no">No</label><br /><br />
 
-            <input type="submit" value="Submit">
-          </form> 
-        </div>
+          <label class="top" for="addlinfo">Additional Info<br >
+          <input type="textarea" id="addlinfo" value="Nuff said?"/> </label>
+          <br/>
+          </fieldset>
+
+          <input type="submit" value="Submit Storm" class="submitBtn" />
+        </form>
+      </div>
     </main>
 
     <footer>
-            <p>&copy; <span id="currentdate"></span> | Brother Nye | Life On Mars | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
-           <p> <span id="date"></span> </p>
+      <p>
+        &copy; <span id="currentdate"></span> | Brother Nye | Life On Mars |
+        <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </p>
+      <p><span id="date"></span></p>
     </footer>
     <script src="/lesson6/js/scripts.js"></script>
     <script src="/lesson6/js/year.js"></script>
     <script src="/lesson6/js/fullDate.js"></script>
     <script src="/lesson6/js/preston-5.js"></script>
     <script src="/lesson6/js/windchill.js"></script>
-    
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script>
-  WebFont.load({google: {families: ["Libre Baskerville", "Yeseva One"]}});
-</script>
-</body>
-<!-- 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: { families: ["Libre Baskerville", "Yeseva One"] },
+      });
+    </script>
+  </body>
+  <!-- 
 <script src="/lesson4/js/scripts.js"></script>
 <script src="/lesson4/js/year.js"></script>
 <script src="/lesson4/js/fullDate.js"></script>
 <script src="/lesson5/js/preston-5.js"></script> -->
-
 </html>
