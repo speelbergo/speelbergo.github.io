@@ -28,6 +28,7 @@ fetch(requestURL)
 
       var cardin;
         if ( (prophets[i].order) == 1) {
+          console.log("first");
           cardin = "first";
         }
         else if ((prophets[i].order) == 2) {
@@ -40,7 +41,8 @@ fetch(requestURL)
           cardin= prophets[i].order + "th" 
         }
 
-      cardinale.textcontent = "He was the " + cardin + " president."
+      cardinale.textContent = "He was the " + cardin + " president."
+      console.log( "He was the " + cardin + " president.");
 
 
 
