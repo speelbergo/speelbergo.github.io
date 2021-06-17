@@ -215,10 +215,11 @@ margin: 10px 10px 10px 10px;
     filter: blur(0em) ;
     transition: filter 0.5s;
 }
-
+/*
 .lazyimage:hover {
     box-shadow: 20px 20px 30px 15px dimgrey ;
 }
+*/
 
  .lazyimage[data-src]{
     filter: blur(0.2em);

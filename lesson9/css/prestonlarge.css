@@ -35,5 +35,8 @@
         min-height: 50px; 
         width: 100%;         
     }
-    
+
+    .lazyimage:hover {
+        box-shadow: 20px 20px 30px 15px dimgrey ;
+    }
 }

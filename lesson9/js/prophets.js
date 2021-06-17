@@ -39,6 +39,7 @@ fetch(requestURL)
     cardinale.textContent = "The " + cardin + " president of the restored church."
 
       pix.src = prophets[i].imageurl;
+      //pix.setAttribute('alt', `portrait of ${prophets[i].name ${prophets[i].lastname}!`);
       burth.textContent = "Born: " + prophets[i].birthdate;
       deth.textContent = "Died: " + prophets[i].death;
       chillun.textContent = "He had " + prophets[i].numofchildren + " children.";
