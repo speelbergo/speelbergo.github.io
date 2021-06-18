@@ -88,5 +88,27 @@
             min-height: 50px; 
             width: 100%;
         }
-        
+
+ .card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+ }       
+
+ .cardimg {
+    width: 100%;
+    /* grid-template-columns: 1fr ; */
+}
+
+.cardimg:nth-child(odd)  {
+	/* grid-column: 2; */
+    border: 2px solid red;
+}
+
+/* 
+.card1:nth-child(odd) .cardtext {
+	grid-column: 1;
+	grid-row: 1;
+} */
+
 }

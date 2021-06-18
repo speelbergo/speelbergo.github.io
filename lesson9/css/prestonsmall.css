@@ -314,3 +314,28 @@ margin: 10px 10px 10px 10px;
        width: 50%;
 
    }
+
+   .card1 {
+    display: grid;
+    /* margin: 30px; */
+    grid-gap: 30px;
+    border:1px solid #bbb;
+  background-color: #eee;
+  max-width: 600px;
+  margin: .5rem auto;
+	
+
+   }
+
+   .cardimg {
+      
+       width: 100%;
+       grid-template-columns: 1fr;
+   }
+
+   /* section {
+	 max-width: 600px; 
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+} */

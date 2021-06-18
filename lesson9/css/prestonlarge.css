@@ -39,4 +39,10 @@
     .lazyimage:hover {
         box-shadow: 20px 20px 30px 15px dimgrey ;
     }
+
+    .card1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     }  
+
 }
