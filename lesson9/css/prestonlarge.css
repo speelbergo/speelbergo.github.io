@@ -42,7 +42,14 @@
 
     .card1 {
         display: grid;
+        max-width: 90%;
         grid-template-columns: 1fr 1fr 1fr;
      }  
+
+     section {
+         display: block;
+         width: 100%;
+     }
+     
 
 }

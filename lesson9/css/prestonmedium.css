@@ -89,10 +89,10 @@
             width: 100%;
         }
 
- .card1 {
+  section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+        
  }       
 
  .cardimg {
@@ -100,15 +100,21 @@
     /* grid-template-columns: 1fr ; */
 }
 
-.cardimg:nth-child(odd)  {
-	/* grid-column: 2; */
-    border: 2px solid red;
+ section:nth-child(odd) img{
+	grid-column: 2;
+
 }
 
-/* 
-.card1:nth-child(odd) .cardtext {
+.cardtext, .cardimg {
+    border: 20px;
+}
+
+section:nth-child(odd) .cardtext {
 	grid-column: 1;
 	grid-row: 1;
-} */
+    
+}
+
+
 
 }

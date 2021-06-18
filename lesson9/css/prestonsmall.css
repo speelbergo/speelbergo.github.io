@@ -328,7 +328,6 @@ margin: 10px 10px 10px 10px;
    }
 
    .cardimg {
-      
        width: 100%;
        grid-template-columns: 1fr;
    }
