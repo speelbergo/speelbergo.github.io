@@ -1,0 +1,340 @@
+
+
+#banner {
+    background-color: yellow;
+}
+
+a:visited {
+    color: rgb(255, 233, 168);
+  }
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    background-color: #1F581D;
+    color: lightgray;
+    }
+picture.franklin img {
+
+    display: block;
+    width: 96%;
+}
+    header img {
+        grid-row: 1/3;
+    }
+
+    .tagLine {
+        font-style: italic;
+    }
+
+h1, h2, h3{
+    font-family: 'Yeseva One', cursive;
+    margin-top: 5%;
+    text-align: center;
+}
+.icon {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+nav {
+    background-color: #c75839;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%
+    
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #000;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.prestonActive a{background-color: #8f3b29; color: #ffff;}
+
+nav ul li a:hover {background-color: #ea8470;}
+
+nav ul.hide {display: none;}
+
+main {
+    max-width: 80%;
+    margin: 0 auto; 
+
+}
+
+.prestonhero {
+    width: 100%;
+    
+}
+
+.hero-ph {
+    margin: 10px 10px 10px 10px;
+    background: radial-gradient(#eee, #c75839);
+    border: 1px solid #333;
+    margin: 15px 15px 15px;
+    width: 300px;
+    height: 250px;
+}
+
+.weathersummary {
+top: 1rem;
+left: 15px;
+margin: 10px 10px 10px 10px;
+
+}
+
+.fiveday {
+    display: none;
+}
+
+.flex {
+	display: flex;
+	/* flex-direction: row; */
+	/* let us combine row and wrap with flow */
+	flex-flow: row wrap;
+    flex: 1 1 auto;
+    background-color: #D69F7E;
+ }
+
+.flex-col {
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    
+}
+.col-head {
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+
+.col-head {
+	font-weight: 700;
+	font-size: 1rem;
+	background-color: black;
+	color: white;
+}
+
+.flex-col:hover {
+	opacity: 0.75;
+	background-color: black;
+	color: white;
+}
+
+.data {
+	display: block;
+	padding: 0 5px 5px;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.prestonarticle {
+    
+    background-color: #1F581D;
+    margin: 20px;
+    padding: 15px;
+    color: lightgray;
+}
+
+#bronze {
+    display: block;
+    width: 300px;
+    box-shadow: 0 0 30px #111;
+    margin: 1em;
+
+}
+
+#prestonhistory {
+    color: white;
+    text-shadow: 1px 2px  black;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    background-color: #ea8470;
+}
+
+#contacttext {
+    text-align: center;
+    padding: 2.5em;
+    text-justify: auto;
+}
+
+#marsmap {
+    display: none;
+    width: 100%;
+    box-shadow: 0 0 30px #111;
+    margin: 1em;
+
+}
+
+.contentBox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #000;
+    padding: 15px;
+    background-color: #eee;
+    color: #4444;
+    font-style: italic;
+}
+
+.figurebatch {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px;
+    grid-gap: 30px;
+
+}
+
+.lazyimage {
+    min-width: 50px;
+    min-height: 200px; 
+    width: 100%;
+    box-shadow: 10px 10px 30px 5px dimgrey ;
+    filter: blur(0em) ;
+    transition: filter 0.5s;
+}
+/*
+.lazyimage:hover {
+    box-shadow: 20px 20px 30px 15px dimgrey ;
+}
+*/
+
+ .lazyimage[data-src]{
+    filter: blur(0.2em);
+
+  } 
+
+.desc {
+    position: absolute;
+    background-color: rgb(218, 165, 32, 0.6);
+    font-size: 110%;
+    margin: 3px;   
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+      background-color: #1F581D;
+      max-width: 80%;
+      text-align: center;
+      margin: 0 auto; 
+      color: white;
+  }
+
+  #byulink {
+      color: lightgray;
+  }
+ 
+
+  .fulldate {
+    margin: 0 auto;
+   }
+
+   /*--------------FORM0-------------
+   #strom {
+    background-color: #ea8470;
+        border: 1px solid #bbb;
+   }
+        */
+
+   form fieldset {
+       margin: 2rem 0;
+       border: 1px solid #1F581D;
+       border-radius: 15px;
+       padding: .5rem 2%;
+
+   }
+
+   form legend{
+       color: #1F581D;
+       margin: 0 1rem;
+       padding: 0 .5rem;
+   }
+
+   form label.top, form div {
+       display: block;
+       padding-top: .1rem;
+       color: #843C2A;
+       font-size: .8rem;
+   }
+
+   form label.top input, form label.top select {
+       display: block;
+       font-size: 1rem;
+       border: solid 1px #999;
+       border-radius: 4px;
+       padding: .75rem;
+       color: #555;
+       max-width: 20rem;
+       background-color: rgba(0, 0, 0, 0.1);
+
+   }
+   form label.sbs {
+       display: block;
+       padding: .75rem 0;
+       color: #555;
+   }
+
+   form input.submitBtn {
+       border: none;
+       background-color: #843C2A;
+       color: white;
+       border-radius: 1rem; 
+       padding: .75rem 1.5rem;
+       margin: 0 0 2rem 2%;
+       width: 50%;
+
+   }
+
+   .card1 {
+    display: grid;
+    /* margin: 30px; */
+    grid-gap: 30px;
+    border:1px solid #bbb;
+  background-color: #eee;
+  max-width: 600px;
+  margin: .5rem auto;
+	
+
+   }
+
+   .cardimg {
+       width: 100%;
+       grid-template-columns: 1fr;
+   }
+
+   /* section {
+	 max-width: 600px; 
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+} */

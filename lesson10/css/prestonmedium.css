@@ -1,0 +1,120 @@
+@media only screen and (min-width: 35rem) {
+
+    .icon {
+        float: right;
+        width: 200px;
+        height: auto;
+    }
+
+    nav button {display:none;}
+
+    nav ul.hide {display: block;}
+
+    nav ul {
+        margin-left: 2%;
+        max-width: 800px;
+    }
+    nav ul li {
+        display: block;
+
+      /*  float: left;*/
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #8f3b29;
+        padding: .8rem 1rem;
+    }
+  
+    
+    .hero-ph {
+        position: absolute;
+            margin: 5px 5px;
+            background: radial-gradient(#eee, #c75839);
+            border: 1px solid #333;
+            width: 230px;            
+            height: 200px;
+            padding: 0 0 0 0;
+            opacity: 10;
+        }
+                
+    .weathersummary {
+        position: absolute;
+        top: .1rem;
+        left: 15px;
+        
+        }
+
+    .weathersummary p {
+            margin: .3em;
+
+        }
+
+    .fiveday {
+            display: inline;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            width: 600px;
+
+        }
+
+    #bronze {
+            float: right;
+            width: auto;
+        
+        }
+
+    .prestonarticle {
+          min-height: 550px;
+      }
+
+    #marsmap {
+            display: block;
+            width: 100%;
+            float: left;
+            border: 4em;
+        
+        }
+
+    .figurebatch {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .lazyimage {
+            display: block;
+            min-width: 50px;
+            min-height: 50px; 
+            width: 100%;
+        }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        
+ }       
+
+ .cardimg {
+    width: 100%;
+    /* grid-template-columns: 1fr ; */
+}
+
+ section:nth-child(odd) img{
+	grid-column: 2;
+
+}
+
+.cardtext, .cardimg {
+    border: 20px;
+}
+
+section:nth-child(odd) .cardtext {
+	grid-column: 1;
+	grid-row: 1;
+    
+}
+
+
+
+}
