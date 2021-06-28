@@ -44,19 +44,20 @@
          
         <section class="weathersummary">
             <h3> Weather At A Glance</h3>
-            <p><strong>Currently:</strong> Meteors</p>
-            <p><strong>Temperature:</strong> <span id="temph"> 100  </span></p>
-            <p><strong>Humidity:</strong> 0%</p>
-            <p><strong>Precipitation:</strong> 0 inches</p>
-            <p><strong>Wind Speed:</strong> <span id="wendy">55</span> </p>
-            <p><strong>Wind Chill:</strong> <span id="wchill"></span></p>
+            <p><strong>Currently:</strong> <span id="currant"></span></p>
+            <p><strong>Temperature:</strong> <span id="current-temp"></span>&deg; F</p>
+            <p><strong>Humidity:</strong> <span id="humiditah"></span>%</p>
+            <p><strong>Wind Speed:</strong> <span id="windspeed"></span> MPH</p>
+            <p><strong>Wind Chill:</strong> <span id="wxhill"></span>&deg; F</p>
         </section>
     
 
     </div>
-    <img class="prestonhero" src="images/colony1.jpg" alt="View from outside the dome">
 
+    <img class="prestonhero" src="images/colony1.jpg" alt="View from outside the dome">
   
+    <!-- <div class="apisum"></div> -->
+
         <div class="fiveday">
         <h2>5 Day Forecast</h2>
 <div class="flex">
@@ -65,6 +66,8 @@
 		<img src="/lesson5/images/sunny.png " alt="sunny!" style="width:50px;height:auto;">
         
 		<span class="data">Sunny</span>
+
+        
 	</div>
 	<div class="flex-col">
 		<span class="col-head">22</span>
@@ -121,11 +124,13 @@ its most revered folk hero.</p>
             <p>&copy; <span id="currentdate"></span> | Brother Nye | Life On Mars | <a id="byulink" href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
            <p> <span id="date"></span> </p>
     </footer>
+    <script src="js/prestonfiveday.js"></script>
     <script src="/lesson6/js/scripts.js"></script>
-    <script src="/lesson6/js/year.js"></script>
+    <script src="/js/year.js"></script>
     <script src="/lesson6/js/fullDate.js"></script>
     <script src="/lesson6/js/preston-5.js"></script>
-    <script src="/lesson6/js/windchill.js"></script>
+    <!-- <script src="/lesson6/js/windchill.js"></script> -->
+    <script src="js/prestonglance.js"></script>
     
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
