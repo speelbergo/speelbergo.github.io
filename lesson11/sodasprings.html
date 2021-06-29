@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Thank You Web page.">
+    <meta name="description" content="The Soda Springs Web page.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
     <link rel="stylesheet" href="css/prestonsmall.css">
     <link rel="stylesheet" href="css/prestonmedium.css">
     <link rel="stylesheet" href="css/prestonlarge.css">
-   <!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Yeseva+One&display=swap" rel="stylesheet">  -->
+    <title>Soda Springs</title>
 
-    <title>Eye See YOU! Page</title>
 </head>
+
 <body>
 <div id="banner">
     <P>Pancake on the Plains this Saturday! <br>
@@ -36,14 +36,41 @@
         <li> <a onclick="getDate()" href="gallery.html"> Gallery </a>  </li>
     </ul>
     </nav>
-    
+
     <main class="clearfix">
-        <h2>Thanks for your input!</h2>
+        <h2>Soda Springs Collective</h2>
 
-        <p>The Martian Overlord appreciates your cooperation</p>
+    <div class="hero-ph"> 
+         
+        <section class="weathersummary">
+            <h3> Weather At A Glance</h3>
+            <p><strong>Currently:</strong> <span id="currant"></span></p>
+            <p><strong>Temperature:</strong> <span id="current-temp"></span>&deg; F</p>
+            <p><strong>Humidity:</strong> <span id="humiditah"></span>%</p>
+            <p><strong>Wind Speed:</strong> <span id="windspeed"></span> MPH</p>
+            <p><strong>Wind Chill:</strong> <span id="wxhill"></span>&deg; F</p>
+        </section>
+    
+    </div>
 
-    <img src="images/overlord.jpg" alt="tripod">
-
+    <img class="prestonhero" src="images/sodasprings.jpg" alt="View from outside the soda springs dome">
+  
+    <div class="fivedaytitle">
+        <h2>Five Day Forecast</h2>
+    </div>
+    
+    <div class="cincodia"></div>
+   
+<div class="prestonarticle">
+    <img id="bronze" src="/lesson5/images/napoleandynamyte.jpg" alt="Napoleon Bronze statue">
+    <h3>Preston Colony Founding</h3>
+    <p id="prestonhistory">The world famous Preston, Idaho was once a small agricultural town completely unknown outside the region. 
+        That is until the landmark feature film Napoleon Dynamite was released. Although it made a noticeable yet 
+    short-lived impact upon its first release, it was revived a generation later and became a cultural touchstone
+that ushered in an era of peace the world had never heretofore seen. It's no wonder then that the first permanent
+post-terrestrial colony was named after this famous utopia, including a reproduction of the bronze statue of
+its most revered folk hero.</p>
+</div>
 
    <div class="contact">
        <img id="marsmap" src="/lesson5/images/marsmap.jpg" alt="Google Mars map">
@@ -61,21 +88,18 @@
             <p>&copy; <span id="currentdate"></span> | Brother Nye | Life On Mars | <a id="byulink" href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
            <p> <span id="date"></span> </p>
     </footer>
+    <script src="js/prestonfiveday.js"></script>
     <script src="/lesson6/js/scripts.js"></script>
-    <script src="/lesson6/js/year.js"></script>
+    <script src="/js/year.js"></script>
     <script src="/lesson6/js/fullDate.js"></script>
     <script src="/lesson6/js/preston-5.js"></script>
-    <script src="/lesson6/js/windchill.js"></script>
+    <!-- <script src="/lesson6/js/windchill.js"></script> -->
+    <script src="js/prestonglance.js"></script>
     
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
   WebFont.load({google: {families: ["Libre Baskerville", "Yeseva One"]}});
 </script>
 </body>
-<!-- 
-<script src="/lesson4/js/scripts.js"></script>
-<script src="/lesson4/js/year.js"></script>
-<script src="/lesson4/js/fullDate.js"></script>
-<script src="/lesson5/js/preston-5.js"></script> -->
 
 </html>
