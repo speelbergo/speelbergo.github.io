@@ -15,14 +15,22 @@ console.log(jsonObject);
 
     {
       let card = document.createElement("section");
+      let title = document.createElement("h2");
+      let wx = document.createElement("h4")
       let temp = document.createElement("p")
+      let pix = document.createElement("img");
 
       temp.textContent =  prestonweather[i].main.temp;
+      wx.textContent = prestonweather[i].weather[0].main;
+      //pix.src = prestonweather[i].weather[0].icon;
+      pix.src = `https://openweathermap.org/img/w/${prestonweather[i].weather[0].icon}.png`;
+
 
       card.appendChild(temp);
+      card.appendChild(wx);
+      card.appendChild(pix);
 
-
-      document.querySelector("div.flex-col").appendChild(card);
+      document.querySelector("div.cincodia").appendChild(card);
 
 
     }

@@ -323,18 +323,31 @@ margin: 10px 10px 10px 10px;
   background-color: #eee;
   max-width: 600px;
   margin: .5rem auto;
-	
-
-   }
+	   }
 
    .cardimg {
        width: 100%;
        grid-template-columns: 1fr;
    }
 
-   /* section {
-	 max-width: 600px; 
-  margin: .5rem auto;
-	border:1px solid #bbb;
-  background-color: #eee;
-} */
+   .cincodia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 30px;
+    grid-gap: 30px;
+    background-color: #ea8470;
+    border: 1px;
+    column-gap: 15px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    }
+
+    .cincodia img {
+        min-width: 100px;
+        min-height: 50px; 
+             /* width: 100%; */
+        box-shadow: 5px 5px 10px 5px dimgrey ;
+    } 
+    
+
