@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Mars Colony Image gallery.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet" href="css/prestonsmall.css">
+    <link rel="stylesheet" href="css/prestonmedium.css">
+    <link rel="stylesheet" href="css/prestonlarge.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+
+    <header>
+<img class="icon" src="/lesson3/images/iconfinder_Mars_1715796.png" alt="Martian Colony Logo"/>
+<h1>Life On Mars</h1>
+<h2 class="tagLine"><em>It's like living in your own private Idaho</em></h2>
+    </header>
+<main>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>   
+    <ul id="primaryNav" class="hide">
+        <li><a href="/lesson10/index.html">Home </a></li>
+        <li class="prestonActive"><a href="preston.html">Preston Colony </a></li>
+        <li><a href="#">Soda Springs Collective </a></li>
+        <li><a href="#">Fish Haven Commune </a></li>
+        <li><a href="stormcenter.html">Storm Center </a></li>
+        <li> <a onclick="getDate()" href="gallery.html"> Gallery </a>  </li>
+    </ul>
+    </nav>
+
+    <h1> Exterior Colony photos</h1>
+
+    <P class="desc">  It's been <span id="diffInDays"> </span>  days since your last visit  </P>
+ 
+
+    <div class="figurebatch"> 
+
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony9.jpg'
+        alt= "Purple space suits outside colony dome">
+        <!-- <div class="desc">Purple space suits outside colony dome</div> -->
+        <figcaption class="desc">Purple space suits outside colony dome </figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony10.jpg'
+        alt= "Rocket next to dome">
+        <figcaption class="desc">Rocket next to dome</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony11.jpg'
+        alt= "Wedge  dome">
+        <figcaption class="desc">Wedge dome</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony12.jpg'
+        alt= "Neon Purple dome">
+        <figcaption class="desc">Neon purple dome</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony13.jpg'
+        alt= "Basketweave dome">
+        <figcaption class="desc">Basketweave domes</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony14.jpg'
+        alt= "Geodome">
+        <figcaption class="desc">Geodome</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony7.jpg'
+        alt= "No dome">
+        <figcaption class="desc">Dome free city</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony6.jpg'
+        alt= "Pioneer dome">
+        <figcaption class="desc">Pioneer dome</figcaption>
+    </figure>
+    <figure class="lazymontage">
+        <img class="lazyimage" src='/lesson7/images/lazyloads/placeholder.jpg' data-src='/lesson7/images/colony pics/colony5.jpg'
+        alt= "Wavy dome">
+        <figcaption class="desc">Wavy dome with no panes</figcaption>
+    </figure>
+
+</div>
+
+   <div class="contact">
+       <img id="marsmap" src="/lesson5/images/marsmap.jpg" alt="Google Mars map">
+       <div id="contacttext">
+       <p> <strong>  Life on Mars </strong> <br>
+        111 Ares Avenue <br>
+        Central Biodome <br>
+       <em>  overlord@lifeonmars.com </em></p>
+    </div>
+
+   </div>
+    </main>
+
+    <footer>
+            <p>&copy; <span id="currentdate"></span> | Brother Nye | Life On Mars | <a id="byulink" href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+           <p> <span id="date"></span> </p>
+    </footer>
+    <script src="/lesson7/js/scripts.js"></script>
+    <script src="/lesson7/js/year.js"></script>
+    <script src="/lesson7/js/fullDate.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/datediff.js"></script>
+   
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({google: {families: ["Libre Baskerville", "Yeseva One"]}});
+</script>
+</body>
+
+</html>

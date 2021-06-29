@@ -80,8 +80,7 @@ main {
 
 .prestonhero {
     width: 100%;
-    
-}
+  }
 
 .hero-ph {
     margin: 10px 10px 10px 10px;
@@ -96,7 +95,6 @@ main {
 top: 1rem;
 left: 15px;
 margin: 10px 10px 10px 10px;
-
 }
 
 .fiveday {
@@ -335,7 +333,7 @@ margin: 10px 10px 10px 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 30px;
     grid-gap: 30px;
-    background-color: #ea8470;
+    background: radial-gradient(#eee, #c75839);
     border: 1px;
     column-gap: 15px;
     padding: 10px;
@@ -344,9 +342,8 @@ margin: 10px 10px 10px 10px;
     }
 
     .cincodia img {
-        min-width: 100px;
+        min-width: 30px;
         min-height: 50px; 
-             /* width: 100%; */
         box-shadow: 5px 5px 10px 5px dimgrey ;
     } 
     

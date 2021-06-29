@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Storm reporting Web page." />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/prestonsmall.css" />
+    <link rel="stylesheet" href="css/prestonmedium.css" />
+    <link rel="stylesheet" href="css/prestonlarge.css" />
+
+    <title>Storm Center</title>
+  </head>
+  <body>
+    <div id="banner">
+      <p>
+        Pancake on the Plains this Saturday! <br />
+        Come take a walk outside the colony dome.
+      </p>
+    </div>
+    <header>
+      <img
+        class="icon"
+        src="/lesson3/images/iconfinder_Mars_1715796.png"
+        alt="Martian Colony Logo"
+      />
+      <h1>Life On Mars</h1>
+      <h2 class="tagLine">
+        <em>It's like living in your own private Idaho</em>
+      </h2>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>   
+  <ul id="primaryNav" class="hide">
+      <li><a href="/lesson10/index.html">Home </a></li>
+      <li class="prestonActive"><a href="preston.html">Preston Colony </a></li>
+      <li><a href="#">Soda Springs Collective </a></li>
+      <li><a href="#">Fish Haven Commune </a></li>
+      <li><a href="stormcenter.html">Storm Center </a></li>
+      <li> <a onclick="getDate()" href="gallery.html"> Gallery </a>  </li>
+  </ul>
+  </nav>
+
+    <main class="clearfix">
+      <h1>Report a storm</h1>
+
+      <div id="strom">
+        <p><em> An asterisk (*) indicates a required field</em></p>
+        <form action="/lesson8/thanks.html">
+          <fieldset>
+            <legend>Reporter Info</legend>
+            <label class="top" for="fullname"
+              >Full name: (alpha characters only) *<br />
+              <input
+                type="text"
+                id="fullname"
+                pattern="[A-Za-z ]{5,}"
+                required /></label
+            ><br />
+
+            <label class="top" for="eemail">
+              Email address:<br />
+              <input
+                type="email"
+                id="eemail"
+                value="john@redplanet.com" /></label
+            ><br />
+
+            <label class="top" for="fone">
+              Phone Number*<br />
+              <input
+                type="tel"
+                id="fone"
+                value="(555)867-5309"
+                required /></label
+            ><br />
+
+            <label class="top" for="zippity">
+              Zip Code*<br />
+              <input type="number" id="zippity" value="90210" required /></label
+            ><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Storm Info</legend>
+
+          <label class="top" for="fig"> Date:<br />
+          <input type="date" id="fig"  /></label><br />
+
+          <label class="top" for="strmtyp">What kinda storm?
+          <input list="stormtypes" name="strmtyp" id="strmtyp" />
+          <datalist id="stormtypes">
+            <option value="Flash Flood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+            <option value="Asteroid the size of Texas"></option>
+          </datalist> </label>
+          <br />
+
+          <label class="top" for="rang">Severity (between 0 and 10):
+          <input type="range" id="rang" name="rang" min="0" max="10" /></label>
+          <br />
+
+          <label class="top">
+            <select
+              name="Colonies"
+              id="selectcolony"
+              onchange="selectResponse()"
+            >
+              <option value="" disabled selected>Select a Colony ...</option>
+              <option value="Preston">Preston</option>
+              <option value="Soda Springs">Soda Springs</option>
+              <option value="Fish Haven">Fish Haven</option>
+              <option value="Open Red Space">Open Red Space</option>
+            </select></label><br>
+
+          <label class="top">User in Danger?</label>
+          <label class="sbs" for="yes">Yes
+          <input  type="radio" id="yes" name="danger" value="yes" /> </label>
+         
+          <label class="sbs" for="maybe">Maybe
+          <input  type="radio" id="maybe" name="danger" value="maybe" /> </label>
+
+          <label  class="sbs" for="no">No
+            <input  type="radio" id="no" name="danger" value="no" /> </label><br>
+
+          <label class="top" for="addlinfo">Additional Info<br >
+          <input type="textarea" id="addlinfo" /> </label>
+          <br/>
+          </fieldset>
+
+          <input type="submit" value="Submit Storm" class="submitBtn" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="currentdate"></span> | Brother Nye | Life On Mars |
+        <a id="byulink" href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </p>
+      <p><span id="date"></span></p>
+    </footer>
+    <script src="/lesson6/js/scripts.js"></script>
+    <script src="/lesson6/js/year.js"></script>
+    <script src="/lesson6/js/fullDate.js"></script>
+    <script src="/lesson6/js/preston-5.js"></script>
+    <script src="/lesson6/js/windchill.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: { families: ["Libre Baskerville", "Yeseva One"] },
+      });
+    </script>
+  </body>
+  <!-- 
+<script src="/lesson4/js/scripts.js"></script>
+<script src="/lesson4/js/year.js"></script>
+<script src="/lesson4/js/fullDate.js"></script>
+<script src="/lesson5/js/preston-5.js"></script> -->
+</html>

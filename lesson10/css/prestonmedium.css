@@ -115,6 +115,26 @@ section:nth-child(odd) .cardtext {
     
 }
 
+.cincodia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    grid-gap: 10px;
+    background: radial-gradient(#eee, #c75839);
+    border: 1px;
+    column-gap: 15px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    }
+
+
+.cincodia img {
+    min-width: 60px;
+    min-height: 50px; 
+    box-shadow: 5px 5px 10px 5px dimgrey ;
+} 
+
 
 
 }
