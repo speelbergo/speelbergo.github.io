@@ -62,8 +62,14 @@
     #bronze {
             float: right;
             width: auto;
-        
         }
+
+      #coca {
+        display: block;
+        margin: 1em;
+          float: right;
+          width: 100%;
+      }  
 
     .prestonarticle {
           min-height: 550px;
@@ -128,6 +134,9 @@ section:nth-child(odd) .cardtext {
     text-align: center;
     }
 
+    .cincodia section {
+        display: block;
+    }
 
 .cincodia img {
     min-width: 60px;

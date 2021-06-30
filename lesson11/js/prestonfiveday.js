@@ -6,7 +6,7 @@ fetch(forecastURL)
   })
   .then(function (jsonObject) {
 
-console.log(jsonObject);
+//console.log(jsonObject);
     const prestonweather = jsonObject["list"];
 
     for (let i = 0; i < prestonweather.length; i++) { 
