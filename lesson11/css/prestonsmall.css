@@ -356,6 +356,6 @@ margin: 10px 10px 10px 10px;
     .events {
         background-color: #8f3b29; color: #ffff;
         margin: 10px;      
-        box-shadow: 15px;  
+        /* box-shadow: 15px;   */
     }
 
