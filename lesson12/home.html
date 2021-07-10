@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Martian Overlord Home Page">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+  <link rel="stylesheet" href="css/martiansmall.css">
+  <link rel="stylesheet" href="css/martianmed.css">
+  <link rel="stylesheet" href="css/martianlg.css">
+
+  <title>Martian Overlord</title>
+
+</head>
+
+<body>
+
+<header>  
+<img class="icon" src="/lesson12/images/iconfinder_6622931_alien_space_icon_512px.png" alt="Martian Overlords Logo"/>
+<h1>Death from Mars!</h1>
+<h2 class="tagline"><em>All your dome are belong to us</em></h2>
+</header>
+
+<nav class="clearfix">
+  <button onclick="toggleMenu()">&#9776;</button>   
+<ul id="primaryNav" class="hide">
+  <li class="active"><a href="home.html">Home </a></li>
+  <li><a href="city.html">The Conclave</a></li>
+  <li><a href="join.html">Join Us... </a></li>
+  <li><a href="directory.html"> ...Or Else!</a></li>
+  <li><a href="contact.html">We're not so bad! </a></li>
+</ul>
+</nav>
+
+<main class="clearfix">
+
+  <h2> Welcome your new overlords!</h2>
+
+  <img class="hero" src="images/wotw.jpg" alt="domination for your nation">
+
+  <div class="allwx"> 
+
+    <section class="weathersummary">
+    <h3>Pre-HeatRay Weather</h3>
+    <p><strong>Currently:</strong> <span id="currant"></span></p>
+    <p><strong>Temperature:</strong> <span id="current-temp"></span>&deg; F</p>
+    <p><strong>Humidity:</strong> <span id="humiditah"></span>%</p>
+    
+</section>
+
+<section class="threeday">
+  <h3> Three day forecast</h3>
+  <p><strong> Friday: </strong> <span id="friday"></span></p>
+  <p><strong> Saturday: </strong><span id="saturday"></span></p>
+  <p><strong> Sunday: </strong><span id="sunday"></span></p>
+  <p><strong> After That: WORLD'S END</strong></p>
+  </section>
+</div>
+
+<div class="exciting">  
+
+    <div id="ex1">  
+    <p class="excitingtext">Whelp, you travelled 33 million miles just to meet your doom. But don't worry, we think you will like 
+      being subjugated. In fact, we're way nicer than those ammonia breathing dummies on Venus. You could do much worse, believe us. 
+    </p>
+
+   <div class="excitingimg"> <img src="images/wotw2.png" alt="lookit our cool tripods">  </div>
+  </div>
+
+  <div id="ex2">  
+
+    <img class="excitingimg" src="images/wotw4.jpg" alt="aren't they shiny?">
+
+  <p class="excitingtext">Look on the bright side. We have thousands of years of advanced technology to make 
+    your enslavement as streamlined as possible. Plus we have free Wi-Fi</p>
+
+</div>
+
+  <div id="ex3"> 
+  <p class="excitingtext">So stick around and don't fight. Our Tripod pilots have itchy fingers and we looked at 
+    your spacecraft. X-Wings, they are NOT. 
+  </p>
+
+  <img class="excitingimg" src="images/wotw6.jpg" alt="resistance is something something">
+  </div>
+
+</div>
+
+  <div class="eventspage">
+    <h3> Upcoming Take Overs</h3>
+  <ul class="upcomingevents">
+    <li> July 24: Roast-A-Pioneer Day</li>
+    <li> July 31: Attack on Preston</li>
+    <li> August 14: Attack on Fish Haven </li>
+    <li> August 28: Attack on Soda Springs</li>
+    <li> Septeber 6: Slave Labor Day</li> 
+  </ul>
+</div>
+
+<h3> The takeover of your colonies was made possible through generous grants from the 
+  following businesses: </h3>
+<div class="sponsors"> 
+<img class="sponsorsimg"src="images/Tripods R Us Logo.png" alt="tripods r us">
+<img class="sponsorsimg"src="images/BrainFixBureau.jpg" alt="Brain Fix Bureau">
+<img class="sponsorsimg"src="images/gladiatorleague.jpg" alt="Gladiator League">
+</div>
+
+<div class="finalinvite">
+
+<img  src="images/overlord.jpg" alt="big tripod">
+
+<p class="finaltext" >Look, we're just as reasonable as the next technologically superior species. 
+  We'd rather not resort to blows. So consider this website your first step in 
+martian indoctrination. Join our Chamber of tort - 'Commerce' and we'll  consider
+making you the taskmasters over your fellow puny humans! </p>
+
+</div>
+
+<div class ="finalwarning"> 
+<h3> Don't wait for us to heat up our rays... <a href="join.html">Join us</a> the easy way!</h3>
+<a href="join.html"> <img src="images/Brainwash-People.jpg" alt="brainwashed">  </a>
+</div>
+
+<div class ="finalwarning"> 
+<h3> Ouch! Don't wait to <a href="contact.html"> Phone Home! </a>  </h3>
+<a href="contact.html"> <img src="images/et.png" alt="touch someone"> </a>
+</div>  
+</main>
+
+  <footer>
+    <p>&copy; <span id="currentdate"></span> | Brother Nye | Death From Mars | <a id="byulink" href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+   <p> <span id="date"></span> </p>
+   <div class="social">
+    <a href="https://facebook.com/" target="_blank">
+      <img src="images/trans fb.png" alt="Facebook icon"/></a>
+    <a href="https://twitter.com/" target="_blank">
+      <img src="images/transparent Twitter.png" alt="Twitter icon"/> </a>
+    <a href="https://youtube.com/" target="_blank">
+      <img src="images/trans youtube.png" alt="YouTube icon"/> </a>
+  </div>
+</footer>
+
+<script src="/js/year.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>  WebFont.load({google: {families: ["M PLUS Rounded 1c", "Play"]}});</script>
+<script src="js/martianglance.js"></script>
+<script src="/lesson11/js/scripts.js"></script>
+</body>
+</html>
+
+<!-- 
+      include the following:
+    
+        - weather alerts if available (applicable) from the government and display it as a
+     closeable message at the top of the page. 
+     (closeable means the user can click to remove the alert)
+    - display and label a three day forecast of the "day" temperature using the current date.
+   -->

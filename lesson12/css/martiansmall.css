@@ -1,0 +1,190 @@
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  background-color: #90143d;
+  color: lightgray;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  header img {
+   grid-row: 1/3;
+}
+
+h1, h2, h3 {
+  font-family: 'Play', cursive;
+  margin-top: 5%;
+  text-align: center;
+}
+
+p {
+  font-family: 'M PLUS Rounded 1c';
+}
+
+.icon {
+  float: left;
+  width: 240px;
+  height: auto;
+}
+
+nav ul li a {
+  display: block;
+  padding: .8rem 2%;
+  text-decoration: none;
+  color: #000;
+  border-top:1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.active a{background-color: #90143d; color: #ffff;}
+
+nav ul li a:hover {background-color: #5f0f2a; color: #ffff;}
+
+nav ul.hide {display: none;}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+}
+
+.weathersummary {
+  top: .5rem;
+  left: 15px;
+  margin: 1px 1px 10px 10px;
+  background: radial-gradient(#eee, #1aff16);
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.threeday {
+  top: .5rem;
+  left: 15px;
+  margin: 1px 1px 10px 10px;
+  background: radial-gradient(#1aff16, #eee);
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.excitingtext {
+padding: 5px;
+color: #d8d8d8;
+border: 2px solid #90143d;
+background-color: #23395b;
+max-width: 350px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.excitingimg {
+  width: 250px; /* width of container */
+   height: 250px; /* height of container */
+  overflow: hidden;
+  object-fit: cover;
+  border: 2px solid #90143d;
+  justify-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eventspage {
+  margin: 20px 0px 0px 0px;
+    padding: 5px;
+    color:  #23395b;
+    border: 2px solid #90143d;
+    background-color: #d8d8d8 ;
+    max-width: 350px;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.sponsorsimg {
+  padding: 10px;
+  width: 350px;
+  height: 350px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.finaltext {
+  display: block;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: #23395b;
+  color: white;
+  padding: 5px;
+}
+
+.finalwarning {
+  display: block;
+   margin-left: auto;
+  margin-right: auto; 
+  /* overflow: hidden; */
+  padding: 10px;
+  width: 80%;
+  /* height: 350px;  */
+}
+
+.finalwarning img {
+  width: 80%;
+
+}
+
+footer {
+  text-align: center;
+  background-color: #9e9e9e;
+  }
+
+#byulink {
+      color: rgb(46, 46, 46);
+  }
+ 
+  .social {
+    width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .social img {
+    width: 20%
+  }
+
+  .marstory1 {
+    padding: 5px;
+color: #d8d8d8;
+border: 2px solid #90143d;
+background-color: #23395b;
+max-width: 100%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .marstory2 {
+    padding: 5px;
+color: #d8d8d8;
+border: 2px solid #90143d;
+background-color: #23395b;
+max-width: 100%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

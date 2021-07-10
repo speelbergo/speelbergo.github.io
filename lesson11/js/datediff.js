@@ -22,7 +22,6 @@ function getDate() {
 
  const oldate = parseInt( localStorage.getItem("date") );
 
- console.log(oldate);
  return oldate;
 }
 
@@ -37,7 +36,6 @@ function getNumberOfDays() {
 
     const diffInTime = date2.getTime() - date1;
 
-    //console.log(getTime());
 
     const diffInDays = Math.round(diffInTime / oneDay);
 

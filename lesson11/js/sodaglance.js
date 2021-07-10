@@ -3,7 +3,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
 
     // var currentfahren = (((jsObject.main.temp - 273.15) * 9/5 + 32).toPrecision(2));
 

@@ -1,0 +1,37 @@
+@media only screen and (min-width: 35rem) {
+
+  .icon {
+    float: right;
+    width: 200px;
+    height: auto;
+}
+
+nav button {display:none;}
+
+nav ul.hide {display: block;}
+
+nav ul {
+    margin-left: 2%;
+    max-width: 800px;
+}
+nav ul li {
+    display: block;
+}
+
+.allwx {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.weathersummary {
+grid-template-columns: 1/2;
+
+}
+
+.threeday {
+  grid-template-columns: 2/2;
+}
+
+
+
+}
