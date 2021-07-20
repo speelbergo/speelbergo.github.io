@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" Get To Know your new Martian Overlord ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/martiansmall.css">
+  <link rel="stylesheet" href="css/martianmed.css">
+  <link rel="stylesheet" href="css/martianlg.css">
+
+  <title>Martian Contact</title>
+
+</head>
+
+<body>
+
+<header>
+<img class="icon" src="/lesson12/images/iconfinder_6622931_alien_space_icon_512px.png" alt="Martian Overlords Logo"/>
+<h1>Death from Mars!</h1>
+<h2 class="tagline"><em>All your dome are belong to us</em></h2>
+</header>
+
+<nav class="clearfix">
+  <button onclick="toggleMenu()">&#9776;</button>
+<ul id="primaryNav" class="hide">
+  <li ><a href="home.html">Home </a></li>
+  <li ><a href="city.html">The Conclave</a></li>
+  <li><a href="join.html">Join Us... </a></li>
+  <li ><a href="directory.html"> ...Or Else!</a></li>
+  <li class="active"><a href="contact.html">We're not so bad! </a></li>
+</ul>
+</nav>
+
+<main class="clearfix">
+
+  <!-- <div class="events"></div> -->
+
+
+  <div class="contact">
+      <div class="map-responsive">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.921134159849!2d-80.01858455326847!3d40.69686610122733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88348606061457fd%3A0xd1a9027289f6b61!2sMars%2C%20PA%2016046!5e0!3m2!1sen!2sus!4v1626489180761!5m2!1sen!2sus"
+         width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
+        <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6049.921134159849!2d-80.01858455326847!3d40.69686610122733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88348606061457fd%3A0xd1a9027289f6b61!2sMars%2C%20PA%2016046!5e0!3m2!1sen!2sus!4v1626489180761!5m2!1sen!2sus"
+         width="600" height="450" style="border:0;" allowfullscreen></iframe>
+         </div>
+      <div id="contacttext">
+      <p> <strong>  Death from Mars! </strong> <br>
+       111 Ares Avenue <br>
+        North Pole <br>
+      <em>overlord@deathfrommars.com </em></p>
+   </div>
+
+   </div>
+
+   <div class="eventspage"> 
+     <h4><strong> Mars is Bored of Directors. </strong>  <em>sigh</em> </h4>
+      <p><strong>John Carter</strong> - Chief underling</p>
+      <p><strong>Deja Thoris</strong> - Minister of Eye Candy</p>
+      <p><strong>Mark Watney</strong> - VP of Clone Invaders</p>
+      <p><strong>Marvin</strong> - Director of Venusian Observation</p>
+      <p><strong>J'onn J'onnzz</strong> - Human Relations</p>
+      <p><strong>Moms</strong> - Mars Needs them </p>
+
+    </div>
+
+
+
+    <div id="strom">
+      <h3> Why wait when you can submit today? </h3>
+      <p><em> An asterisk (*) indicates a required field</em></p>
+      <form action="thanksyou.html">
+        <fieldset class="form">
+          <legend>Submission</legend>
+          <label class="top" for="firstname"
+            >First Name: (alpha characters only) *<br />
+            <input
+              type="text"
+              id="firstname"
+              pattern="[A-Za-z ]{5,}"
+              required /></label>
+              <br />
+  
+            <label class="top" for="lastname">
+              Last Name: (alpha characters only) *<br/>
+              <input
+              type="text" id="lastname" pattern="[A-Za-z ]{5,}" required />
+            </label> <br/>
+  
+              <label class="top" for="titles">Title<br/>
+                <input  list="title" name="titles" id="titles"/>
+                <datalist id="title">
+                  <option value="Mister"></option>
+                  <option value="Missus"></option>
+                  <option value="Doctor"></option>
+                  <option value="Master"></option>
+                  <option value="Puny Earthling"></option>
+                </datalist>
+              </label> <br/>
+  
+          <label class="top" for="eemail">
+            Email address:<br />
+            <input
+              type="email"
+              id="eemail"
+              value="john@redplanet.com" /></label><br/>
+  
+          <label class="top" for="fone">
+            Cell Phone*<br />
+            <input type="tel" id="fone" value="(555)867-5309" required />
+          </label> <br/>
+
+          <label class="top" for="addlinfo">Additional Info<br >
+            <input type="text" id="addlinfo" /> </label>
+            <br/>
+            <input type="submit" value="Submit Storm" class="submitBtn" />
+            </fieldset>
+
+            </form>
+            </div>
+
+</main>
+
+  <footer>
+    <p>&copy; <span id="currentdate"></span> | Brother Nye | Death From Mars | <a id="byulink" href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
+   <p> <span id="date"></span> </p>
+   <div class="social">
+    <a href="https://facebook.com/" target="_blank">
+      <img src="images/trans_fb.png" alt="Facebook icon"/></a>
+    <a href="https://twitter.com/" target="_blank">
+      <img src="images/transparent_Twitter.png" alt="Twitter icon"/> </a>
+    <a href="https://youtube.com/" target="_blank">
+      <img src="images/trans_youtube.png" alt="YouTube icon"/> </a>
+  </div>
+</footer>
+
+<script src="/js/year.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>  WebFont.load({google: {families: ["M PLUS Rounded 1c", "Play"]}});</script>
+<script src="/lesson11/js/scripts.js"></script>
+<!-- <script src="js/marsbusiness.js"> </script> -->
+</body>
+</html>
+

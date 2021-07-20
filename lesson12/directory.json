@@ -1,0 +1,54 @@
+{
+  "businesses": [
+    {
+      "name": "Gladiator League", 
+      "address": "222 South Pole Dr", 
+      "url": "www.livetofightonmars.com", 
+      "slogan": "\"All humans die, few humans ever truly die for sport\"", 
+      "imageurl": "images/gladiatorleague.jpg" 
+    }, 
+    {
+      "name": "The Brain Fix Bureau", 
+      "address": "333 Ares Parkway", 
+      "url": "www.cleanbrainsmakegoodslaves.com", 
+      "slogan": "\"If it ain't fixed, we'll break 'em\"" , 
+      "imageurl": "images/BrainFixBureau.jpg"  
+    },
+    {
+      "name": "Tripods R US", 
+      "address": "555 Comesinthrees Drive", 
+      "url": "www.thesepodsweremadeforwalkin.mrs", 
+      "slogan": "\"For all your interspecies dominion needs!\"", 
+      "imageurl": "images/Tripods_R_Us_Logo.jpg"  
+    }, 
+    {
+      "name":  "Ray's Heat Rays", 
+      "address": "17 South Kelvin Street", 
+      "url": "www.suninagun.com", 
+      "slogan": "\"We heat em, you eat 'em\"" , 
+      "imageurl": "images/wotw8.jpeg"
+    }, 
+    {
+      "name": "Chain Mart" , 
+      "address": "2775 s. auction blvd" , 
+      "url": "www.lockemandstockem.com", 
+      "slogan": "\"One stop shopping for all your taskmaster needs\"" , 
+      "imageurl": "images/martianslave.jpg"
+    }, 
+    {
+      "name": "Chez Marz" , 
+      "address": "4400 Paris Blvd", 
+      "url": "www.realfrenchcooking.com", 
+      "slogan": "\"How to cook (for) forty humans\" ", 
+      "imageurl":  "images/marsfortress.jpg"
+    }, 
+    {
+      "name": "Wal Mart" , 
+      "address": "123 Main Street", 
+      "url": "www.walmart.com", 
+      "slogan": "\"Save more, Live better\"" , 
+      "imageurl":  "images/walmart.png"
+    }
+  ] 
+  
+}

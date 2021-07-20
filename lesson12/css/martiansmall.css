@@ -14,7 +14,7 @@ header {
    grid-row: 1/3;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: 'Play', cursive;
   margin-top: 5%;
   text-align: center;
@@ -104,6 +104,7 @@ display: block;
     display: block;
       margin-left: auto;
       margin-right: auto;
+    font-size: 125%;
 }
 
 .sponsorsimg {
@@ -131,12 +132,10 @@ display: block;
   /* overflow: hidden; */
   padding: 10px;
   width: 80%;
-  /* height: 350px;  */
-}
+ }
 
 .finalwarning img {
   width: 80%;
-
 }
 
 footer {
@@ -181,6 +180,140 @@ display: block;
   margin-right: auto;
   }
 
+  .keylevel {
+    width: 400px;
+    padding: 5px;
+    padding: 5px;
+    color: #d8d8d8;
+    border: 2px solid #23395b;
+    background-color: #90143d;
+    max-width: 100%;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+
+  }
+
+  form {
+    padding: 5px;
+    color: #d8d8d8;
+    background-color: #23395b;
+    max-width: 100%;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
+  }
+
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #1aff16;
+    border-radius: 15px;
+    padding: .5rem 2%;
+
+}
+
+form legend{
+    color: #1aff16;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: .1rem;
+    color: #1aff16;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #d8d8d8;
+    border-radius: 4px;
+    padding: .75rem;
+    color: rgb(206, 206, 206);
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: rgb(221, 221, 221);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #90143d;
+    color: white;
+    border-radius: 1rem; 
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 50%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 30px;
+  grid-gap: 30px;
+  background-color: #23395b;
+  border: 1px;
+  column-gap: 15px;
+  padding: 10px;
+  color: #c4c4c4;
+  justify-items: center;
+
+  }
+
+  .cards img {
+    width: 400px;
+    justify-items: center;
+
+  }
+
+
+  .events {
+    background-color: #23395b; color: #ffff;
+    margin: 10px;      
+  }
+
+  
+.contact {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  background-color: #90143d;
+  color: #d8d8d8;
+  text-align: center;
+ }
+
+.contact img {
+  width: 90%;
+}
+
+#contacttext {
+  text-align: center;
+  padding: 15px;
+   grid-column: 2/2;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

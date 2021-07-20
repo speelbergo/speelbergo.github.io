@@ -28,22 +28,22 @@ nav ul li a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
+/* 
 #ex1 {
-  grid-template-columns: 1/3;
+  grid-column: 1/3;
 }
  #ex2 {
-  grid-template-columns: 2/3;
+  grid-column: 2/3;
  }
 
  #ex3 {
-  grid-template-columns: 3/3;
- }
+  grid-column: 3/3;
+ } */
  
 .finalinvite {
   position: relative;
   width: 100%;
-  }
+    }
   
   .finaltext {
     position: absolute;
@@ -63,17 +63,54 @@ nav ul li a {
 .marshistory {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  }
+
+  
+.formkey {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 }
 
+.keylevel {
+  padding: 5px;
+
+  width: 100%;
+  margin : 5px; 
+  box-sizing: border-box;
+
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px;
+  grid-gap: 30px;
+  background-color: #23395b;
+  border: 1px;
+  column-gap: 15px;
+  padding: 10px;
+  color: #c4c4c4;
+  justify-items: center;
+  }
+
+  .cards img {
+    width: 250px;
+    justify-items: center;
+
+  }
+
+  
+/* 
 .marstory1 {
-  grid-template-columns: 1/2;
+  grid-column: 1/2;
   max-width: 500px;
 }
 
 .marstory2 {
-  grid-template-columns: 2/2;
+  grid-column: 2/2;
   max-width: 800px;
-}
+} */
 
 
 
